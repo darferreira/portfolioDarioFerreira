@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dario</title>
+    <link rel="icon" href="img/maletín.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="validacion.js"></script>
+</head>
+<body>
+    <header class="portada">
+        <div class="caja-central">
+            <div class="caja-cara">
+                <img  class="cara" src="img/persona-icono.jpg" alt="imagen de rostro">
+            </div>
+            <div class="caja-presentacion">
+                <div>
+                    <h1 class="name">
+                        Hola, Soy <span>Dario Ferreira.</span>
+                    </h1>
+                    <p>
+                        Este es mi sitio web oficial de Portfolio. Me apasiona la tecnología. Siempre interesado en la investigación y 
+                        la implementación de nuevos desarrollos tecnológicos que van surgiendo en el área de la informática y las telecomunicaciones.
+                    </p>
+                    <div class="contenedor-redes">
+                        <div class="redes">
+                            <a href="#" class="facebok"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sobremi">
+            <h2>Sobre mí</h2>
+            <p>
+                Actualmente me desempeño en el área de soporte informático para una empresa dedicada a brindar soluciones informáticas a clientes de sectores variados. 
+                En donde desarrollo diversas tareas que van desde soporte técnico personalizado, hasta la instalación, configuración e implementación de servidores de correo, 
+                servidores de archivos, backups, etc. Soy egresado de la Tecnicatura Superior en Programación de la Universidad Tecnológica Nacional y 
+                me gustaría dedicarme al desarrollo de aplicaciones de manera profesional.
+            </p>
+            <h2>Aptitudes</h2>
+            <p>
+                Estas son algunas de las tecnologías de las que tengo conocimientos.
+            </p>
+            <div class="aptitudes">
+                <div class="tec-list">
+                    <img src="img/480px-HTML5_logo.png" class="tech" alt="Logo HTML5">
+                    <img src="img/480px-css3-logo.png" class="tech" alt="Logo CSS3">
+                    <img src="img/480px-Javascript-logo.png" class="tech" alt="Logo JavaScript">
+                </div>
+                <div class="tec-list">
+                    <img src="img/480px-Csharp-logo.png" class="tech" alt="Logo Csharp">
+                    <img src="img/480px-.NET_Logo.svg.png" class="tech" alt="Logo .NET">
+                    <img src="img/480px-microsoft-sql-server.png" class="tech" alt="Logo MS SQL Server">
+                </div>
+            </div>
+            <h2>Cursos realizados</h2>
+            <ul>
+                <li>Tecnicatura Superior en Programación</li>
+                <li>Cisco CCNA Routing & Switching</li>
+                <li>Curso de desarrollo web con HTML y CSS</li>
+                <li>Curso de programación con JavaScript</li>
+            </ul>
+    </section>
+
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <div class="footer-textos">
+                    <h2>Contáctame</h2>
+                    <p>Si deseas contactarte conmigo no dudes en enviarme un mensaje utilizando este formulario.</p>
+                </div>
+                <form action="" class="formulario">
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" >
+                    <input type="email" placeholder="Correo" id="correo" name="correo"  class="email">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                   <div class="derecha">
+                    <input class="boton derecha" type="submit" value="Contactar" name="submmit" id="btn-enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
